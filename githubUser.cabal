@@ -1,0 +1,20 @@
+Name:             githubUser
+Version:          0.0
+Description:      An example of using aeson for json with haskell to get user data from github 
+License:          MIT
+License-file:     LICENSE
+Author:           Jonathan McCluskey
+Maintainer:       jonathan.m.mccluskey@gmail.com
+Build-Type:       Simple
+Cabal-Version:    >=1.2
+
+Executable githubUser
+  Main-is:        githubUser.hs
+  Build-Depends:  
+    aeson,
+    base >= 3 && < 5,
+    bytestring,
+    directory,
+    http-conduit,
+    text
+
