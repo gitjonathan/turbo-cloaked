@@ -7,5 +7,13 @@ Build and Install
 ===
 
   cabal install
+  
+Run
+===
+
+  cd dist/build/githubUser
+  ./githubUser
+  
+  You should see JSON output for a github user.
 
 
